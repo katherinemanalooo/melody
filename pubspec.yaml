@@ -1,0 +1,60 @@
+name: melody
+description: A Flutter music player and streaming application.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  flutter_riverpod: ^3.4.2
+
+  # Navigation
+  go_router: ^16.3.0
+
+  # Liquid Glass UI
+  liquid_glass_widgets: ^0.24.4
+
+  # Animations
+  flutter_animate: ^4.5.2
+
+  # Network Images / Album Artwork
+  cached_network_image: ^3.4.1
+
+  # Dynamic Album Colors
+  palette_generator: ^0.3.3+7
+
+  # Audio Playback
+  audioplayers: ^6.8.1
+
+  # Android ExoPlayer implementation
+  audioplayers_android_exo: ^0.1.4
+  audio_metadata_reader: ^1.7.1
+  audio_session: ^0.2.4
+  audio_service: ^0.18.19
+  # Temporary local audio files
+  path_provider: ^2.1.6
+  file_picker: 12.0.0-beta.7
+
+  # Local Persistence
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
